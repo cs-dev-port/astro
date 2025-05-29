@@ -9,9 +9,8 @@ export default function Nav() {
         </Link>
         <ul className="flex space-x-4">
           <li>
-            <a href="/" className="hover:text-gray-400">
-              Home
-            </a>
+            <Link href="/" className="hover:text-gray-400" />
+            Home
           </li>
           <li>
             <a href="/about" className="hover:text-gray-400">

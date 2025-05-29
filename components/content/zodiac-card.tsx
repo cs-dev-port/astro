@@ -12,7 +12,6 @@ type ZodiacCardProps = {
 export default function ZodiacCard({
   name,
   iconPath,
-  url,
   onClick,
 }: ZodiacCardProps) {
   return (

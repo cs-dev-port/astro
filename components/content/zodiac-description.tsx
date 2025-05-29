@@ -5,7 +5,7 @@ import { zodiacSigns } from "@/lib/data/zodiacData";
 import Icon from "@mdi/react";
 
 // logic to match desc with page
-export default function zodiacData() {
+export default function ZodiacData() {
   const pathname = usePathname();
   const sign = zodiacSigns.find((s) => s.url === pathname);
   if (!sign || !sign.description) return null;
