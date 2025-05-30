@@ -24,7 +24,7 @@ export default function Page() {
           <li>Dynamic rendering</li>
         </ul>
 
-        <h2 className="text-2xl font-semibold mb-2">Tech Stack</h2>
+        <h2 className="text-2xl font-semibold mb-2">Stack</h2>
         <ul className="list-disc list-inside mb-6 space-y-1">
           <li>React</li>
           <li>Next.js</li>
@@ -35,17 +35,17 @@ export default function Page() {
 
         <h2 className="text-2xl font-semibold mb-2">Personal Statement</h2>
         <p className="mb-6">
-          This project reinforced some core concepts and introduced new ones all
-          in all a nice progression in my coding journey. I learned how to
+          This project reinforced some core concepts and introduced new ones.
+          All in all a nice progression in my learning journey.
         </p>
 
         <h2 className="text-2xl font-semibold mb-2">Challenges Faced</h2>
         <p className="mb-4">
           Although ShadCN made importing and setting up the image carousel on
           the landing page easy, it introduced several front-end
-          issues—specifically with overflow and mobile responsiveness. Parsing
-          and adjusting Tailwind styles turned out to be faster than building a
-          carousel from scratch.
+          issues—specifically with overflow and mobile responsiveness.Despite
+          this, Parsing and adjusting Tailwind styles turned out to be faster
+          than building a carousel from scratch.
         </p>
         <p className="mb-4">
           Class names became a bit cumbersome to track. The next project will
