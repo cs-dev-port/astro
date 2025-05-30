@@ -43,14 +43,14 @@ export default function Page() {
         <p className="mb-4">
           Although ShadCN made importing and setting up the image carousel on
           the landing page easy, it introduced several front-end
-          issues—specifically with overflow and mobile responsiveness.Despite
+          issues—specifically with overflow and mobile responsiveness. Despite
           this, Parsing and adjusting Tailwind styles turned out to be faster
           than building a carousel from scratch.
         </p>
         <p className="mb-4">
           Class names became a bit cumbersome to track. The next project will
           focus on abstracting Tailwind styles and adopting a firm ruleset on
-          how to properly leverage them. Simillarly next project will also focus
+          how to properly leverage them. Similarly, next project will also focus
           on proper documentation and code comments.
         </p>
         <p className="mb-6">
